@@ -42,5 +42,5 @@ function predictBaby() {
     let babyName = firstAlphabet + secondAlphabet + thirdAlphabet;
 
     document.getElementById("output").innerText = 
-        `Congratulations! You are having a ${genderPrediction}. Suggested baby name: ${babyName}`;
+        `Congratulations! You are having a ${genderPrediction} child first. Suggested baby name: ${babyName}`;
 }
